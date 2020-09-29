@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+
+}
+
+.navbar::before{
+    content: "";
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/photo/joel-vodell-TApAkERW5pQ-unsplash.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+#HomeSection{
+    
+}
+/* #HomeSection img{
+    background: url("/photo/Adidas-Shoes-Free-Download-PNG.png");
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+} */
+ul{
+    display: flex;
+    position: absolute;
+    right: 9px;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+form{
+    text-size-adjust: 14px;
+    position: absolute;
+    left: 200px;
+    height: 20px;
+}
+.myinput{
+    text-align: center;
+    font-size: 11px;
+    height: 15px;
+    width: 190px;
+    border-radius: 12px;
+    
+}
+button #btn{
+    font-size: 10px;
+    width: 50px;
+    margin: 10px;
+}
+form #btn{
+    position: relative;
+    margin-left: 10px;
+    width: 57px;
+    font-size: 11px;
+
+}
+
+.logo img{
+    position: absolute;
+    top: 2px;
+    left: 18px;
+   height: 38px;
+   width: 38px;
+}
+#HomeSection img{
+    height: 412px;
+    width: 400px;
+    position: absolute;
+    top: 65px;
+    right: 128px;
+}
+.text h1{
+    color: white;
+    margin-top: 25px;
+}
+.text h2{
+    color: rgb(236, 240, 47);
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    position: absolute;
+    left: 70px;
+    top: 142px;
+}
+#contact input{
+    border-radius: 2px;
+    margin: 5px;
+}
+#btn2{
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 36px;
+    margin-top: 5px;
+}
+
